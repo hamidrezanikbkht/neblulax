@@ -123,13 +123,13 @@ export default function Header() {
           })}
           <div className="w-full   ">
             <img
-              className={`w-full sss  absolute translate-y-[100px]  object-cover  bg-center bg-cover  lg:translate-y-[400px] transition-all  duration-200 lg:duration-500   z-50 `}
+              className={`w-full   absolute translate-y-[100px]  object-cover  bg-center bg-cover  lg:translate-y-[400px] transition-all  duration-200 lg:duration-500   z-50 `}
               style={{ bottom: data / 0.85 + "px", }}
               src="/img/hero_0.png"
               alt=""
             />{" "}
             <img
-              className={`w-full  reza -scale-x-100  absolute translate-y-[100px]  lg:object-cover  bg-center bg-cover  lg:translate-y-[400px] transition-all  duration-200 lg:duration-500  z-50 `}
+              className={`w-full   -scale-x-100  absolute translate-y-[100px]  lg:object-cover  bg-center bg-cover  lg:translate-y-[400px] transition-all  duration-200 lg:duration-500  z-50 `}
               style={{
                 bottom: data / 0.85 + "px",
                 left: "-100%",
